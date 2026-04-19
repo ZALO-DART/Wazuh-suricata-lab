@@ -1,0 +1,10 @@
+*.vmdk
+*.vmem
+*.nvram
+*.vmsd
+*.iso
+*.ova
+*.log
+*.zip
+*.7z
+Thumbs.db
