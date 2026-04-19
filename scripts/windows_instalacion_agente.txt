@@ -1,0 +1,5 @@
+cd $HOME/Downloads
+Invoke-WebRequest -Uri "https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.4-1.msi" -OutFile "wazuh-agent-4.14.4-1.msi"
+.\wazuh-agent-4.14.4-1.msi /q WAZUH_MANAGER="192.168.254.133"
+Start-Service wazuhsvc
+Get-Service wazuhsvc

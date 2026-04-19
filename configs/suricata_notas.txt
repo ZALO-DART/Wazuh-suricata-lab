@@ -1,0 +1,14 @@
+Archivo principal de configuración:
+- /etc/suricata/suricata.yaml
+
+Archivo de eventos utilizado:
+- /var/log/suricata/eve.json
+
+Interfaz observada en Ubuntu:
+- ens33
+
+Aspectos relevantes del laboratorio:
+- configuración de HOME_NET
+- validación del servicio Suricata
+- generación de eventos JSON
+- integración con Wazuh mediante ossec.conf
